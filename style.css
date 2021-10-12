@@ -28,3 +28,9 @@ input {
     display: block;
     margin: 1rem;
 }
+table {
+    text-transform: capitalize;
+    margin: 1em;
+    width: 95vw;
+    border: solid 2px black;
+}
