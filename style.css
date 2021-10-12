@@ -14,7 +14,9 @@ div {
     align-items: center;
     width: 50vw;
     height: 50vh;
-    border: solid 2px red;
+    border: solid 2px lightblue;
+    border-radius: 15px;
+    background-color: lightblue;
 }
 input {
     display: block;
