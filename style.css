@@ -13,7 +13,7 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 75vw;
     height: 50vh;
     border: solid 2px lightblue;
     border-radius: 15px;
