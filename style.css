@@ -10,13 +10,17 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+h1 {
+    margin: 1em;
+    text-transform: capitalize;
+}
 div {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 75vw;
     height: 50vh;
-    border: solid 2px lightblue;
+    border: solid 2px blue;
     border-radius: 15px;
     background-color: lightblue;
 }
