@@ -21,7 +21,7 @@ div {
     align-items: center;
     width: 75vw;
     height: 50vh;
-    border: solid 2px blue;
+    border: solid 2.5px blue;
     border-radius: 15px;
     background-color: lightblue;
 }
