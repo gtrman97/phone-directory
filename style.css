@@ -29,6 +29,9 @@ input {
     display: block;
     margin: 1rem;
 }
+.field {
+    width: 90%; 
+}
 table {
     table-layout: fixed;
     text-transform: capitalize;
