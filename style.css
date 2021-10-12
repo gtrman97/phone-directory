@@ -30,6 +30,7 @@ input {
     margin: 1rem;
 }
 table {
+    table-layout: fixed;
     text-transform: capitalize;
     margin: 1em;
     width: 95vw;
