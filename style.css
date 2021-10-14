@@ -43,3 +43,6 @@ table {
 th {
     border: solid 2px black;
 }
+td {
+    text-align: center;
+}
