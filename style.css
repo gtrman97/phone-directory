@@ -31,6 +31,12 @@ input {
 }
 .field {
     width: 90%; 
+    padding: 2.5%;
+}
+#submit {
+    border: solid 2px green;
+    background: linear-gradient(to bottom, green, lightgreen);
+    border-radius: 15px;
 }
 table {
     table-layout: fixed;
