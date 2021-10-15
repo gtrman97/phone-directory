@@ -52,5 +52,8 @@ th {
 td {
     text-align: center;
     border: solid 2px black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 
 }
