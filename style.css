@@ -15,7 +15,7 @@ h1 {
     margin: 1em;
     text-transform: capitalize;
 }
-div {
+#main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +32,10 @@ input {
 .field {
     width: 90%; 
     padding: 2.5%;
+}
+#error {
+    color: red; 
+    display: none;
 }
 #submit {
     border: solid 2px green;
