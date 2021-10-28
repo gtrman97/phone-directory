@@ -20,7 +20,7 @@ document.getElementById("submit").addEventListener("click", function() {
 })
 
 document.getElementById("directory").addEventListener("click", function() {
-    var filterTable, rows, sorted, i, x, y, sortFlag;
+    let filterTable, rows, sorted, i, x, y, sortFlag;
       filterTable = document.querySelector("#directory");
       sorted = true;
       while (sorted) {
