@@ -19,6 +19,7 @@ document.getElementById("submit").addEventListener("click", function() {
 
 })
 
+// Sort table by name
 document.getElementById("directory").addEventListener("click", function() {
     let filterTable, rows, sorted, i, x, y, sortFlag;
       filterTable = document.querySelector("#directory");
