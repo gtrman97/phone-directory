@@ -42,12 +42,13 @@ input {
     background: linear-gradient(to bottom, green, lightgreen);
     border-radius: 15px;
 }
-table {
+#directory {
     table-layout: fixed;
     text-transform: capitalize;
     margin: 1em;
     width: 95vw;
     border: solid 2px black;
+    border-collapse: collapse;
     background-color: white;
 }
 th {
