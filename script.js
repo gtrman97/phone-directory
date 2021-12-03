@@ -6,9 +6,9 @@ document.getElementById("submit").addEventListener("click", function() {
     let phone = document.getElementById("phone").value; 
     let email = document.getElementById("email").value; 
 
-   //  if(!phone.match(mobileRegex)){
-   //     document.getElementById("error").style.display = initial; 
-   //  }
+    if(!phone.match(mobileRegex)){
+       document.getElementById("error").style.display = initial; 
+    }
 
     let table = document.getElementById("directory");
     let row = table.insertRow(-1);
