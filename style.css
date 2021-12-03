@@ -51,6 +51,7 @@ input {
     border-radius: 15px;
 }
 #submit:hover {
+    background: none;
     background-color: darkgreen;
 }
 #directory {
