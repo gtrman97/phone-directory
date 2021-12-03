@@ -45,8 +45,9 @@ input {
     text-align: center;
     text-transform: capitalize;
     width: 35%;
-    /* height: 10%; */
+    height: 17%;
     visibility: hidden;
+    padding: 1.5%;
 }
 #submit {
     border: solid 2px green;
