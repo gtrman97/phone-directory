@@ -1,4 +1,4 @@
-const mobileRegex = /(\+1[ ]|\()?(\d{3}\)?(-|\s)?){2}\d{4}$/g; 
+const mobileRegex = /^(\+1[ ]|\()?(\d{3}\)?(-|\s)?){2}\d{4}$/g; 
 
 document.getElementById("submit").addEventListener("click", function() {
 
