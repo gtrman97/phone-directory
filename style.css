@@ -31,14 +31,18 @@ input {
     margin: 1rem;
 }
 .field {
+    border: 2px solid black;
     width: 90%; 
     padding: 2.5%;
 }
 #error {
     border: 2px solid red;
-    color: red; 
+    border-radius: 15px;
+    color: white; 
+    background: linear-gradient(to bottom, red, orange);
     text-align: center;
     text-transform: capitalize;
+    width: 35%;
     /* display: none; */
 }
 #submit {
