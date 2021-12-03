@@ -6,6 +6,10 @@ document.getElementById("submit").addEventListener("click", function() {
     let phone = document.getElementById("phone").value; 
     let email = document.getElementById("email").value; 
 
+    if(email.match(mobileRegex)){
+       
+    }
+
     let table = document.getElementById("directory");
     let row = table.insertRow(-1);
     let newName = row.insertCell(0);
