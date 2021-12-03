@@ -1,14 +1,18 @@
-const mobileRegex = /(\+1[ ]|\()?(\d{3}\)?(-|\s)?){2}\d{4}/g; 
+const mobileRegex = /(\+1[ ]|\()?(\d{3}\)?(-|\s)?){2}\d{4}$/g; 
 
 document.getElementById("submit").addEventListener("click", function() {
+
+   document.getElementById("error").style.visibility = "hidden";
 
     let name = document.getElementById("name").value; 
     let phone = document.getElementById("phone").value; 
     let email = document.getElementById("email").value; 
 
     if(!phone.match(mobileRegex)){
-       document.getElementById("error").style.display = initial; 
+       document.getElementById("error").style.visibility = "visible"; 
     }
+
+    else {
 
     let table = document.getElementById("directory");
     let row = table.insertRow(-1);
@@ -20,6 +24,7 @@ document.getElementById("submit").addEventListener("click", function() {
     newPhone.innerText = phone; 
     newEmail.innerText = email; 
 
+    }
 
 })
 
