@@ -17,6 +17,7 @@ h1 {
 }
 #main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 75vw;
@@ -34,8 +35,11 @@ input {
     padding: 2.5%;
 }
 #error {
+    border: 2px solid red;
     color: red; 
-    display: none;
+    text-align: center;
+    text-transform: capitalize;
+    /* display: none; */
 }
 #submit {
     border: solid 2px green;
