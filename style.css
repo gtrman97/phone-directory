@@ -78,3 +78,12 @@ td {
     overflow: hidden;
 
 }
+@media (min-width: 667px) {
+    #main {
+        height: 70vh;
+        justify-content: center;
+    }
+    #error {
+        height: auto;
+    }
+}
