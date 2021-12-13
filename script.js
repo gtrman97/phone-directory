@@ -1,8 +1,10 @@
 const mobileRegex = /^(\+1 |\()?(\d{3}\)?(-|\s)?){2}\d{4}$/g; 
 
-let error = document.getElementById("error").innerText; 
+const error = document.getElementById("error"); 
 
 document.getElementById("submit").addEventListener("click", function() {
+
+   console.log(error);
 
    document.getElementById("error").style.visibility = "hidden";
 
@@ -11,18 +13,18 @@ document.getElementById("submit").addEventListener("click", function() {
     let email = document.getElementById("email").value; 
 
     if(!name) {
-      document.getElementById("error").style.visibility = "visible"; 
-      document.getElementById("error").innerText = error + "name";
+      error.style.visibility = "visible"; 
+      error.textContent = "error: you must enter a valid name";
     }
 
     else if(!phone.match(mobileRegex)){
-      document.getElementById("error").style.visibility = "visible"; 
-      document.getElementById("error").innerText = error + "phone number";
+      error.style.visibility = "visible"; 
+      error.textContent = "error: you must enter a phone number";
     }
 
     else if(!email) {
-      document.getElementById("error").style.visibility = "visible"; 
-      document.getElementById("error").innerText = error + "email";
+      error.style.visibility = "visible"; 
+      error.textContent = "error: you must enter a email";
     }
 
     else {
