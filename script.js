@@ -1,18 +1,18 @@
 const mobileRegex = /^(\+1 |\()?(\d{3}\)?(-|\s)?){2}\d{4}$/g; 
 
-let form = document.getElementsByTagName("FORM"); 
+let form = document.getElementsByTagName("FORM")[0]; 
 
 let checkForm = (form) => {
-   if(form.checkValidity()){
-      form.setCustomValidity("Name Please!");
-   }
+   return form.checkValidity();
 }
 
 document.getElementById("submit").addEventListener("click", function() {
 
-      checkForm(form);
-      
-   
+      console.log(form);
+
+      console.log(checkForm(form));
+
+      if(checkForm(form)) {
 
    document.getElementById("error").style.visibility = "hidden";
 
@@ -35,9 +35,9 @@ document.getElementById("submit").addEventListener("click", function() {
     newName.innerText = name; 
     newPhone.innerText = phone; 
     newEmail.innerText = email; 
-
-
-} }
+    }
+   }
+ }
 )
 
 // Sort table by name 
