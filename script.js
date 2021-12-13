@@ -19,12 +19,12 @@ document.getElementById("submit").addEventListener("click", function() {
 
     else if(!phone.match(mobileRegex)){
       error.style.visibility = "visible"; 
-      error.textContent = "error: you must enter a phone number";
+      error.textContent = "error: you must enter a valid phone number";
     }
 
     else if(!email) {
       error.style.visibility = "visible"; 
-      error.textContent = "error: you must enter a email";
+      error.textContent = "error: you must enter a valid email";
     }
 
     else {
