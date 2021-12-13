@@ -1,21 +1,8 @@
 const mobileRegex = /^(\+1 |\()?(\d{3}\)?(-|\s)?){2}\d{4}$/g; 
 
 let error = document.getElementById("error").innerText; 
-let form = document.getElementsByTagName("FORM")[0]; 
-
-let checkForm = (form) => {
-   return form.checkValidity();
-}
 
 document.getElementById("submit").addEventListener("click", function() {
-
-      // console.log(form);
-
-      // console.log(checkForm(form));
-
-      // if(!checkForm(form)) {
-      //    document.getElementById("name").innerHTML = 'um no';
-      // }
 
    document.getElementById("error").style.visibility = "hidden";
 
