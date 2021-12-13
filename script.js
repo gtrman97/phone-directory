@@ -11,7 +11,6 @@ document.getElementById("submit").addEventListener("click", function() {
     let email = document.getElementById("email").value; 
 
     if(!name) {
-      // document.getElementById("error").innerText.replace(/X/g, "name");
       document.getElementById("error").style.visibility = "visible"; 
       document.getElementById("error").innerText = error + "name";
     }
@@ -24,7 +23,6 @@ document.getElementById("submit").addEventListener("click", function() {
     else if(!email) {
       document.getElementById("error").style.visibility = "visible"; 
       document.getElementById("error").innerText = error + "email";
-      console.log(!email);
     }
 
     else {
