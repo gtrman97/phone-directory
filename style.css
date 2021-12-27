@@ -23,7 +23,7 @@ h1 {
     align-items: center;
     width: 75vw;
     height: 50vh;
-    border: solid 5px blue;
+    border: solid 3.5px blue;
     border-radius: 15px;
     background-color: lightblue;
     padding: 2.5%;
@@ -86,4 +86,19 @@ td {
     #error {
         height: auto;
     }
+}
+@media (min-width: 810px) {
+
+    #main {
+        height: 35vh;
+    }
+    
+}
+@media (min-width: 1080px){
+
+    #main {
+        width: 60vw;
+        height: 50vh;
+    }
+
 }
