@@ -21,7 +21,6 @@ body {
   border: solid 2.5px blue;
   border-radius: 15px;
   background-color: white;
-
   /* display: none; */
 }
 
@@ -45,7 +44,7 @@ body {
   border-top-right-radius: 0;
 }
 
-#guest-signin{
+#guest-signin, #create-account-form{
   width: 100%;
   max-width: 330px;
   height: 70%;
@@ -63,5 +62,5 @@ body {
   background-color: white;
 }
 #create-account-form{
-  display: none;
+  /* display: initial; */
 }

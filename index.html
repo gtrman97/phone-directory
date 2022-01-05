@@ -55,7 +55,7 @@
         <input type="checkbox" value="remember-me"> Remember me
       </label> -->
       <p>Forgot your <a href="#">Password?</a></p>
-      <p>Create an account? <a href="#">Sign Up</a></p>
+      <p>Create an account? <a href="#" id="create">Sign Up</a></p>
       <p>Sign in as a <a href="#" id="demo">Demo User</a></p>
     </div>
     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
@@ -63,7 +63,15 @@
 </main>
 <form id="create-account-form">
   <img src="../assets/brand/telephone.svg" alt="phone" width="101" height="121">
-  <h1 class="h3 mb-3 fw-normal"><a href="directory.html">Create Account</a></h1>
+  <h1 class="h3 mb-3 fw-normal">Create Account</h1>
+  <div class="form-floating">
+    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <label for="floatingInput">Email address</label>
+  </div>
+  <div class="form-floating">
+    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+    <label for="floatingPassword">Password</label>
+  </div>
 </form>
 <form id="guest-signin">
   <img src="../assets/brand/person-square.svg" id="avatar" alt="avatar" width="101" height="121">
