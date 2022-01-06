@@ -21,7 +21,7 @@ body {
   border: solid 2.5px blue;
   border-radius: 15px;
   background-color: white;
-  display: none;
+  display: initial;
 }
 
 .form-signin .checkbox {
@@ -62,7 +62,7 @@ body {
   background-color: white;
 }
 .create-account-form{
-  display: initial;
+  display: none;
   height: 70%;
 }
 #error {
