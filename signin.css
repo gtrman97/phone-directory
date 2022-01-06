@@ -65,3 +65,16 @@ body {
   display: initial;
   height: 70%;
 }
+#error {
+  border: 2px solid red;
+  border-radius: 15px;
+  color: white; 
+  background: linear-gradient(to bottom, red, orange);
+  text-align: center;
+  text-transform: capitalize;
+  width: 95%;
+  height: 12.5%;
+  visibility: hidden;
+  margin: 5%;
+  /* padding: 1.5%; */
+}
