@@ -13,7 +13,7 @@ body {
 
 }
 
-.form-signin {
+.form-signin, .create-account-form{
   width: 100%;
   max-width: 330px;
   padding: 15px;
@@ -21,7 +21,7 @@ body {
   border: solid 2.5px blue;
   border-radius: 15px;
   background-color: white;
-  /* display: none; */
+  display: none;
 }
 
 .form-signin .checkbox {
@@ -61,6 +61,7 @@ body {
   border-radius: 15px;
   background-color: white;
 }
-#create-account-form{
-  /* display: initial; */
+.create-account-form{
+  display: initial;
+  height: 70%;
 }
