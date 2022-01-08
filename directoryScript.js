@@ -1,6 +1,7 @@
 const mobileRegex = /^(\+1 |\()?(\d{3}\)?(-|\s)?){2}\d{4}$/g; 
 
-const error = document.getElementById("error"); 
+const error = document.getElementById("error");
+let contacts = new Set(); 
 
 document.getElementById("submit").addEventListener("click", function() {
 
@@ -12,7 +13,12 @@ document.getElementById("submit").addEventListener("click", function() {
     let phone = document.getElementById("phone").value; 
     let email = document.getElementById("email").value; 
 
-    if(!name) {
+    if(contacts.has(`${name}-${phone}-${email}`)){
+      error.style.visibility = "visible"; 
+      error.textContent = "error: you have already added that contact";
+    }
+
+    else if(!name) {
       error.style.visibility = "visible"; 
       error.textContent = "error: you must enter a valid name";
     }
@@ -38,6 +44,8 @@ document.getElementById("submit").addEventListener("click", function() {
     newName.innerText = name; 
     newPhone.innerText = phone; 
     newEmail.innerText = email; 
+
+    contacts.add(`${name}-${phone}-${email}`);
     }
    
  }
