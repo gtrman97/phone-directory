@@ -104,4 +104,8 @@ td {
         height: 50vh;
     }
 
+    #note {
+        margin: 2% 1% 1%;
+    }
+
 }
