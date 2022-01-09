@@ -10,7 +10,8 @@ body {
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(to top, lightgreen, lightseagreen);
+    /* background: linear-gradient(to top, lightgreen, lightseagreen); */
+    background-color: skyblue;
 }
 h1 {
     margin: 1em;
@@ -25,7 +26,7 @@ h1 {
     height: 50vh;
     border: solid 3.5px blue;
     border-radius: 15px;
-    background-color: lightblue;
+    background-color: lightyellow;
     padding: 2.5%;
 }
 input {
