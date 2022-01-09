@@ -77,7 +77,9 @@ td {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-
+}
+#note {
+    margin: 2% 1% 1%;
 }
 @media (min-width: 667px) {
     #main {
