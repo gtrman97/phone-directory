@@ -38,6 +38,22 @@ input {
     width: 90%; 
     padding: 2.5%;
 }
+.input-wrapper {
+    position: relative;
+}
+
+.text-input:focus ~ .input-label,
+.text-input:valid ~ .input-label {
+  transform: scale(0.6) translateY(-20px);
+}
+
+.input-label {
+    transition: transform 0.2s;
+    position: absolute;
+    top: 17px;
+    left: 12px;
+    transform-origin: top left;
+}
 #error {
     border: 2px solid red;
     border-radius: 15px;
